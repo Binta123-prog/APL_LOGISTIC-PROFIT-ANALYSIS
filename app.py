@@ -3,8 +3,7 @@ import pandas as pd
 
 st.title("📊 APL Logistics Profitability Dashboard")
 
-# Load dataset
-df = pd.read_csv("APL_Logistics (1).csv", encoding='latin1')
+# df = pd.read_csv("APL_small.csv", encoding='latin1')Load dataset
 
 # KPIs
 total_revenue = df['Sales'].sum()
